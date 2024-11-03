@@ -4,6 +4,7 @@
   },
   "topBar": {
     "lang": "ENG",
+    "langImage": "/icons/United-Kingdom.png",
     "require": "Require a loan"
   },
   "navigation": [
@@ -32,7 +33,7 @@
       "link": "/contact"
     }
   ],
-  "main": {
+  "hero": {
     "title": "Loan for the self-employed",
     "description": "If you are self-employed and need additional funds to develop your business, we offer a loan specially tailored to your needs, with special and convenient conditions.",
     "require": "Require a loan",

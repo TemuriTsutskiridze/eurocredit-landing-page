@@ -1,14 +1,18 @@
 <script setup>
 import { ref } from "vue";
 
-const sliderValue = ref(11500);
+const sliderValue = ref(12500);
 </script>
 
 <template>
-  <div class="mt-8 w-[456px] flex flex-col gap-[9px] relative">
+  <div class="mt-8 w-full max-w-[456px] flex flex-col gap-[9px] relative">
     <div class="flex items-center justify-between">
-      <p class="text-[#20232D] text-sm font-medium">რა თანხის სესხება გსურთ</p>
-      <p class="text-[#525866] text-xs">მაქს: 24 000₾</p>
+      <p class="text-[#20232D] text-sm font-medium">
+        {{ $t("loanApplication.desire") }}
+      </p>
+      <p class="text-[#525866] text-xs">
+        {{ $t("loanApplication.max") }}: 24 000₾
+      </p>
     </div>
 
     <div class="relative">
