@@ -20,11 +20,11 @@
       </div>
       <div class="flex items-center gap-2">
         <IconsUser class="cursor-pointer" />
-        <button
-          class="hidden tablet:block text-white text-sm font-medium bg-[#1A3364] rounded-[50px] px-[18px] py-[14px]"
-        >
-          სესხის მოთხოვნა
-        </button>
+        <ButtonsLoan
+          text="სესხის მოთხოვნა"
+          padding="px-[18px] py-[14px]"
+          borderRadius="rounded-[50px]"
+        />
       </div>
     </div>
   </div>

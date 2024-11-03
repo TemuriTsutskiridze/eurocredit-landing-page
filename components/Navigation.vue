@@ -1,5 +1,5 @@
-<script setup>
-const navigation = [
+<script setup lang="ts">
+const navigation: { name: string; link: string }[] = [
   {
     name: "ავტო სესხი",
     link: "/auto-loan",
