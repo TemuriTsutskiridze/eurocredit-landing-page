@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <h2>main page</h2>
+  <HeroSection />
 </template>
 
 <style scoped></style>
