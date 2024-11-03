@@ -44,4 +44,6 @@ To get started with this project, follow these steps:
 
 ## Acknowledgements
 
-- Temuri - [LinkedIn](https://www.linkedin.com/in/temuri-tsutskiridze/)
+- <a href="https://www.linkedin.com/in/temuri-tsutskiridze/" target="_blank">
+    Temuri - LinkedIn
+  </a>
