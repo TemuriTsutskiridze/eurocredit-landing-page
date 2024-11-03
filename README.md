@@ -1,75 +1,47 @@
-# Nuxt Minimal Starter
+# EuroCredit Landing Page
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to the **EuroCredit Landing Page** project! This landing page is designed to showcase our bank's loan offerings, providing potential customers with all the information they need to get started.
 
-## Setup
+## Table of Contents
 
-Make sure to install dependencies:
+- [Features](#Features)
+- [Technologies Used](#Technologies-Used)
+- [Getting Started](#Getting-Started)
+- [Acknowledgements](#Acknowledgements)
 
-```bash
-# npm
-npm install
+## Features
 
-# pnpm
-pnpm install
+- **Responsive Design**: Looks great on all devices, including desktops, tablets, and mobile phones.
+- **Taking a loan**: Users can take a loan up to 24000₾.
+- **Language switcher**: Users can interact with the web-page on both Georgian and English languages.
 
-# yarn
-yarn install
+## Technologies Used
 
-# bun
-bun install
-```
+- **Nuxt** (UI Library)
+- **Tailwind CSS** (For styling)
+- **i18n** (For internationalization)
 
-## Development Server
+## Getting Started
 
-Start the development server on `http://localhost:3000`:
+To get started with this project, follow these steps:
 
-```bash
-# npm
-npm run dev
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TemuriTsutskiridze/eurocredit-landing-page.git
+   ```
+2. Navigate into the project directory:
+   ```
+   cd eurocredit-landing-page
+   ```
+3. install dependencies:
+   ```
+   npm i
+   ```
+4. Run the web-page locally:
+   ```
+   npm run dev
+   ```
 
-# pnpm
-pnpm dev
+## Acknowledgements
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Temuri - [LinkedIn](https://www.linkedin.com/in/temuri-tsutskiridze/)
