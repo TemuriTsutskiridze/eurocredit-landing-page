@@ -1,4 +1,10 @@
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "ევროკრედიტი",
+  description:
+    "საზაფხულო კამპანია დაიწყო! აიღე სესხი 3 თვით 0%, წინასწარი შენატანის გარეშე!",
+});
+</script>
 
 <template>
   <HeroSection />

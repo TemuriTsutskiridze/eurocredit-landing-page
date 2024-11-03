@@ -26,4 +26,18 @@ export default defineNuxtConfig({
   i18n: {
     vueI18n: "./i18n.config.ts",
   },
+
+  app: {
+    head: {
+      title: "Your Website Title",
+      link: [
+        {
+          rel: "icon",
+          type: "image/svg",
+          href: "/icons/euroCredit-logo.png",
+          sizes: "32x32",
+        },
+      ],
+    },
+  },
 });
