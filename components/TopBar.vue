@@ -15,7 +15,7 @@
 
     <div class="flex items-center gap-8">
       <div class="flex items-center gap-[6px]">
-        <p>ქარ</p>
+        <p class="font-ABeeZee">ქარ</p>
         <IconsGeorgia class="cursor-pointer" />
       </div>
       <div class="flex items-center gap-2">

@@ -30,7 +30,7 @@ const sliderValue = ref(11500);
         }"
       />
       <div
-        class="absolute -translate-x-1/2 bg-white border border-[#E2E4E9] rounded-[4px] shadow-tooltip p-1 text-center text-xs text-[#0A0D14] tooltip"
+        class="absolute -translate-x-1/2 bg-white border border-[#E2E4E9] rounded-[4px] shadow-tooltip p-1 text-center text-xs text-[#0A0D14] font-ABeeZee tooltip"
         :style="{
           left: `${((sliderValue - 1000) / (24000 - 1000)) * 100}%`,
           top: '35px',

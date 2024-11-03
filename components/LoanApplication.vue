@@ -5,7 +5,7 @@
     <h2 class="text-[#161922] text-4xl font-bold tracking-[-0.216px]">
       შეავსე სესხის განაცხადი
     </h2>
-    <p class="text-[#525866] text-base leading-7 mt-4">
+    <p class="text-[#525866] text-base leading-7 mt-4 font-ABeeZee">
       ლორემ იპსუმ განუმეორებელი ეღრიჯებოდა დაებღერტყნათ
     </p>
 

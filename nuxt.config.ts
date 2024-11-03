@@ -11,5 +11,11 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/image"],
+  modules: ["@nuxt/image", "@nuxtjs/google-fonts"],
+
+  googleFonts: {
+    families: {
+      ABeeZee: [400, 500, 600, 700],
+    },
+  },
 });
