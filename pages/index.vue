@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <h1>Euro Credit</h1>
+  <h2>main page</h2>
 </template>
 
 <style scoped></style>
