@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "FiraGO";
+  src: url("/static/fonts/FiraGO-Regular.ttf"),
+    url("/static/fonts/FiraGO-Medium.ttf"),
+    url("/static/fonts/FiraGO-SemiBold.ttf"),
+    url("/static/fonts/FiraGO-Bold.ttf"), url("/static/fonts/FiraGO-Heavy.ttf"),
+    url("/static/fonts/FiraGO-ExtraBold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "FiraGO", sans-serif;
 }
