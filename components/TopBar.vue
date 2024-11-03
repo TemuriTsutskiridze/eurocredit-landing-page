@@ -17,6 +17,7 @@
       <div class="flex items-center gap-[6px]">
         <p class="font-ABeeZee">ქარ</p>
         <IconsGeorgia class="cursor-pointer" />
+        <!-- <NuxtImg src="/icons/United-Kingdom.png" width="20" height="20" /> -->
       </div>
       <div class="flex items-center gap-2">
         <IconsUser class="cursor-pointer" />
