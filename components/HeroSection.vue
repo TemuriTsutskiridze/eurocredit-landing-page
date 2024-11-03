@@ -37,7 +37,7 @@ const benefits: string[] = [
         </div>
       </div>
     </div>
-    <NuxtImg src="/images/hero.png" />
+    <NuxtImg src="/images/hero.png" width="548" />
   </section>
 </template>
 

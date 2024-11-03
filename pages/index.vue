@@ -2,6 +2,7 @@
 
 <template>
   <HeroSection />
+  <LoanApplication />
 </template>
 
 <style scoped></style>
