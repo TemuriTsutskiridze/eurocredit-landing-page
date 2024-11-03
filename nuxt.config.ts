@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
 
+  routeRules: {
+    "/**": { static: true },
+  },
+
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -11,11 +15,29 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/image", "@nuxtjs/google-fonts"],
+  modules: ["@nuxt/image", "@nuxtjs/google-fonts", "@nuxtjs/i18n"],
 
   googleFonts: {
     families: {
       ABeeZee: [400, 500, 600, 700],
+    },
+  },
+
+  i18n: {
+    vueI18n: "./i18n.config.ts",
+  },
+
+  app: {
+    head: {
+      title: "Your Website Title",
+      link: [
+        {
+          rel: "icon",
+          type: "image/svg",
+          href: "/icons/euroCredit-logo.png",
+          sizes: "32x32",
+        },
+      ],
     },
   },
 });

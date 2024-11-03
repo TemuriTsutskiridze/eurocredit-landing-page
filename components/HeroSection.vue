@@ -1,11 +1,4 @@
-<script setup lang="ts">
-const benefits: string[] = [
-  "სპეციალურად შენ საქმიანობაზე მორგებული პირობები!",
-  "სესხის მიღების სწრაფი და მარტივი პროცესი!",
-  "მხოლოდ ავტომობილის უზრუნველყოფით!",
-  "ნებიესმიერი საკრედიტო ისტორიით!",
-];
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <section
@@ -15,25 +8,25 @@ const benefits: string[] = [
       <h1
         class="text-[#161922] text-2xl tablet:text-3xl laptop:text-4xl desktop:text-[42px] desktop:leading-[54px] font-bold"
       >
-        სესხი <br />
-        თვითდასაქმებულთათვის
+        {{ $t("hero.title") }}
       </h1>
       <p class="text-[#20232D] text-lg mt-4 font-ABeeZee">
-        თუ ხარ თვითდასაქმებული და საქმიანობის განსავითარებლად დამატებითი
-        ფინანსები გჭირდება, ჩვენ გთავაზობთ სპეციალურად შენს საჭიროებებზე
-        მორგებულ სესხს, განსაკუთრებული და მოსახერხებელი პირობებით.
+        {{ $t("hero.description") }}
       </p>
       <ButtonsLoan
-        text="მოითხოვე სესხი"
+        :text="$t('hero.require')"
         padding="px-[26px] py-[18px]"
         border-radius="rounded-[88px]"
         class="mt-6"
       />
 
       <div class="flex flex-col gap-4 mt-[43px]">
-        <div v-for="benefit in benefits" class="flex items-center gap-3">
+        <div
+          v-for="index in Array.from({ length: 4 }, (_, i) => i)"
+          class="flex items-center gap-3"
+        >
           <IconsCheck />
-          <p>{{ benefit }}</p>
+          <p>{{ $t(`hero.benefits[${index}]`) }}</p>
         </div>
       </div>
     </div>

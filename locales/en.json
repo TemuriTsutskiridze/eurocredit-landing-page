@@ -1,0 +1,54 @@
+{
+  "offer": {
+    "description": "The summer campaign has started! Get a loan for 3 months at 0% without down payment!"
+  },
+  "topBar": {
+    "lang": "ENG",
+    "langImage": "/icons/United-Kingdom.png",
+    "require": "Require a loan"
+  },
+  "navigation": [
+    {
+      "name": "Auto Loan",
+      "link": "/auto-loan"
+    },
+    {
+      "name": "Business Loan",
+      "link": "/business-loan"
+    },
+    {
+      "name": "For Self-Employed",
+      "link": "/self-employed"
+    },
+    {
+      "name": "About Us",
+      "link": "/about-us"
+    },
+    {
+      "name": "Blog",
+      "link": "/blog"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ],
+  "hero": {
+    "title": "Loan for the self-employed",
+    "description": "If you are self-employed and need additional funds to develop your business, we offer a loan specially tailored to your needs, with special and convenient conditions.",
+    "require": "Require a loan",
+    "benefits": [
+      "Conditions specially adapted to your activity!",
+      "Quick and easy process of getting a loan!",
+      "Only by providing a car!",
+      "With any credit history!"
+    ]
+  },
+  "loanApplication": {
+    "title": "Fill out the loan application",
+    "description": "Lorem Ipsu was inimitable",
+    "desire": "How much do you want to borrow?",
+    "max": "max",
+    "take": "Take a loan"
+  }
+}
