@@ -9,13 +9,13 @@
       ლორემ იპსუმ განუმეორებელი ეღრიჯებოდა დაებღერტყნათ
     </p>
 
-    <!-- Loan Slider -->
+    <LoanSlider />
 
     <ButtonsLoan
       text="სესხის აღება"
       padding="px-[26px] py-[18px]"
       border-radius="rounded-[88px]"
-      class="mt-8 w-[456px]"
+      class="mt-10 w-[456px]"
     />
   </section>
 </template>

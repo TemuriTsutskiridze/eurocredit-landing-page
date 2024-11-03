@@ -15,6 +15,10 @@ export default {
         laptop: "1024px",
         desktop: "1440px",
       },
+      boxShadow: {
+        toolTip:
+          "0px 12px 24px 0px rgba(134, 140, 152, 0.12), 0px 1px 2px 0px rgba(228, 229, 231, 0.24)",
+      },
     },
   },
   plugins: [],
