@@ -7,6 +7,7 @@ useSeoMeta({
 </script>
 
 <template>
+  <h1>Euro Credit</h1>
   <HeroSection />
   <LoanApplication />
 </template>
